@@ -1,17 +1,21 @@
 # Redes
 
-###### Projeto da formação em Administrador de Redes do Alura.
+## Projeto da formação em Administrador de Redes do Alura.
 
-**Site:** [Alura](www.alura.com.br)128 – 191
+**Site:** [Alura](www.alura.com.br)
+
 **Duração:** 90 horas (divididas em 10 cursos)
+
 **Progresso atual:** 3/10 cursos finalizados
+
 **Programa utilizado:** Packet Tracer 7.3.0
 
-###### Descrição:
+
+## Descrição:
 
 No cenário hipotético da formação, fui contratada pela empresa fictícia * *Multillidae* * para montar e configurar uma rede corporativa. A empresa, de aproximadamente 400 funcionários, conta com o departamento de vendas e com o departamento de finanças. Há por volta de 300 funcionários trabalhando no departamento de vendas e cerca de 100 funcionários no departamento de finanças.
 
-###### Objetivo:
+## Objetivo:
 
 Implementar um rede corporativa com as seguintes características:
 
@@ -22,7 +26,7 @@ Implementar um rede corporativa com as seguintes características:
 - apenas os gerentes de departamento podem ter acesso ao servidor interno da empresa e
 - todos precisam ter acesso à internet.
 
-###### Passos realizados:
+## Passos realizados:
 
 1.Criei uma vlan para cada departamento. As configurações foram adicionadas tanto ao switch de cada departamento quanto ao roteador.
 2.Dividi a interface do roteador em sub-interfaces, uma para atribuir ips automaticamente (através do dhcp) para a vlan do departamento de vendas e outra para atribuir ips (dhcp) para a vlan do departamento de finanças.
@@ -35,7 +39,7 @@ Implementar um rede corporativa com as seguintes características:
 9.Conectei o roteador da empresa ao roteador externo, do provedor de serviço internet. Para tanto, adicionei uma placa de rede serial ao roteador da empresa e atribuí um ip público à porta serial (na mesma sub-rede que o ip do roteador externo, do provedor).
 10.Por fim, criei uma lista de acesso NAT no roteador da empresa e configurei o nat para traduzir todos os ips da empresa para ips públicos, permitindo o acesso à internet.
 
-###### Lista de arquivos:
+## Lista de arquivos:
 
 curso.pkt - Projeto salvo no Packet Tracer com todas as configurações feitas.
 curso.png - Foto da tela do Packet Tracer com o projeto aberto.
